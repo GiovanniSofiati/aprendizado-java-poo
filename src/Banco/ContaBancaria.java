@@ -20,6 +20,6 @@ public class ContaBancaria {
     } // getter para visualizar o saldo protegido.
 
     public void consultarSaldo(){
-        System.out.println(saldo);
+        System.out.printf("Saldo = %.2f%n", saldo);
     } // metodo para consultar saldo.
 }
