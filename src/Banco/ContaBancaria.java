@@ -3,12 +3,12 @@ package Banco;
 public class ContaBancaria {
     private double saldo;
 
-    public double sacar(double valor){
-        return saldo -= valor;
+    public void sacar(double valor){
+        saldo -= valor;
     } // metodo para sacar um valor que será reduzido no saldo.
 
-    public double depositar(double valor){
-        return saldo += valor;
+    public void depositar(double valor){
+        saldo += valor;
     } // metodo para depositar um valor que será adicionado no saldo.
 
     public void setSaldo(double saldo) {
@@ -20,6 +20,6 @@ public class ContaBancaria {
     } // getter para visualizar o saldo protegido.
 
     public void consultarSaldo(){
-        System.out.printf("Saldo = %.2f%n", saldo);
+        System.out.printf("Saldo = %.2f", saldo);
     } // metodo para consultar saldo.
 }
