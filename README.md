@@ -1,3 +1,5 @@
+💊 Encapsulamento:
+
 É uma técnica que oculta os detalhes internos de uma classe, permitindo que apenas o necessário seja exposto para o resto do sistema.
 
 ---
